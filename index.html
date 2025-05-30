@@ -87,6 +87,11 @@
             padding: 10px;
         }
         
+        /* Hide error alert when empty */
+        .formkit-form[data-uid="2dd117e816"] .formkit-alert-error:empty {
+            display: none !important;
+        }
+        
         @media (min-width: 640px) {
             .formkit-form[data-uid="2dd117e816"] .formkit-fields {
                 flex-direction: row !important;
